@@ -12,6 +12,11 @@
   </p>
 </p>
 
+# Description
+
+Educational Virtual Engagement (EVE) is a chatbot be able to answer specific details of the COS30081 Fundemental of Natural Language Processing assignments such as date, weightage, etc.
+
+
 <!-- ABOUT THE PROJECT -->
 
 ## Built With

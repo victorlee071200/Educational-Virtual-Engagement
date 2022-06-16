@@ -15,6 +15,6 @@ app.add_app("Distilbert-Cased-SQuAD-V1", model_2.app)
 app.add_app("DistilRoBERTa-Base-SQuAD-V1", model_3.app)
 app.add_app("Bert-Cased-SQuAD-V2", model_4.app)
 app.add_app("Distilbert-Cased-SQuAD-V2", model_5.app)
-app.add_app("DistilRoBERTa-Base-SQuAD-V3", model_6.app)
+app.add_app("DistilRoBERTa-Base-SQuAD-V2", model_6.app)
 # The main app
 app.run()

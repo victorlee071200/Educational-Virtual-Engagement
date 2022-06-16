@@ -28,6 +28,7 @@ Frontend
 Backend
 
 - [HuggingFace](https://huggingface.co/)
+- [PyTorch](https://pytorch.org/)
 
 
 

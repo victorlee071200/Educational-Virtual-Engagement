@@ -5,13 +5,13 @@ from transformers import pipeline
 
 
 def app():
-    st.subheader('Distilbert-Cased-SQuAD-V1')
+    st.subheader('DistilRoBERTa-Base-SQuAD-V2')
 
     @st.cache(allow_output_mutation=True)
     def load_model():
 
         model = pipeline("question-answering",
-                         model="victorlee071200/distilbert-base-cased-finetuned-squad")
+                         model="victorlee071200/distilroberta-base-finetuned-squad_v2")
 
         return model
 

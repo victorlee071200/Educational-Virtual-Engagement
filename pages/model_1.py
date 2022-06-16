@@ -5,7 +5,7 @@ from transformers import pipeline
 
 
 def app():
-    st.subheader('Bert-Cased-SQuAD')
+    st.subheader('Bert-Cased-SQuAD-V1')
 
     @st.cache(allow_output_mutation=True)
     def load_model():

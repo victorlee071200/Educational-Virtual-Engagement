@@ -5,7 +5,7 @@ from transformers import pipeline
 
 
 def app():
-    st.subheader('DistilRoBERTa-Base-SQuAD')
+    st.subheader('DistilRoBERTa-Base-SQuAD-V1')
 
     @st.cache(allow_output_mutation=True)
     def load_model():
